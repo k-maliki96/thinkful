@@ -50,6 +50,7 @@ main{
   height: auto;
     
 }
+/*styling links in the page of index  */
 .links{
   list-style-type: none;
   margin: 15px;
@@ -66,6 +67,7 @@ a {
   font-family: Arial, sans-serif;
   font-size: 20px;
 }
+/*creating styles for the links when an event happens  */
 a:link    { color: rgb(185, 185, 237);  }
 a:visited { color: rgb(213, 198, 198);   }
 a:hover   { color: rgb(37, 43, 37); }
