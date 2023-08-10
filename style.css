@@ -1,19 +1,21 @@
 * {
   box-sizing: border-box;
 }
+/* this styles the body block of the html in the index */
 body {
   margin: 0;
   font-family:Arial, Tahoma, serif;
   background-color: #555c66;
 }
+/*this styles the footer of the html index page  */
 footer {
   background-color: darkgray;
   margin: 200px 0 0 0;
-  padding: 20px 0;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
+  height:auto;
 }
-
+/*this styles the the header part of the html index page */
 header {
     background-color: grey;
   }
@@ -25,6 +27,7 @@ header h1 {
   text-align: center;
   padding: 60px 0 20px 20px;
   letter-spacing:2px;
+  height:120px;
 }
 nav {
   padding: 10px;
@@ -32,7 +35,7 @@ nav {
   width: 50%;
   color: #fff;
 }
-   
+/*  this styles the image included in the html index page   */
 img{
   border-radius: 5%;
   display: block;
@@ -44,6 +47,7 @@ img{
 main{
   padding: 57px 27px;
   color: white;
+  height: auto;
     
 }
 .links{
@@ -66,17 +70,20 @@ a:link    { color: rgb(185, 185, 237);  }
 a:visited { color: rgb(213, 198, 198);   }
 a:hover   { color: rgb(37, 43, 37); }
 a:active  { color: rgb(221, 213, 214);  }
-
+/*container that styles the wrapper class  */
 .wrapper{
   width: 400px;
   margin: auto;
+  height: auto;
 }
-h2 {
+/* this styles the h2 and h3 heading styles  */
+h2,h3 {
   color: rgb(14, 8, 70);
   font-family: Arial, sans-serif;
   text-align: center;
   padding-right: 80px;
 }
+/*styles the horizontal ruler that separates some html containers  */
 hr {
   width: 100%;
   margin-left: auto;
